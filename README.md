@@ -31,8 +31,6 @@ https://git-scm.com/download
 - [ok] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto:<br>
     -> <strong>git branch -D feature/teste:</strong> (Vai deletar a branch depois dela está na linha do tempo principal "Master");<br>
 
-<style>
-    strong {
-        color: red;
-    }
-</style>
+
+- [Obs] Configuração de credencial, caso fique pedindo senha toda vez que for dar o push: <br>
+    -> <strong>git config credential.helper store</strong>

@@ -21,4 +21,6 @@ https://git-scm.com/download
     -> <strong>git show</strong> (Vai mostrar o último ponto na história);
 
 - [] Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito:
-    
+    -> <strong>git branch feature/nomeDaBranch</strong> (Vai criar uma linha do tempo alternativa);
+    -> <strong>git checkout nomeDaBranch</strong> (Vai entrar em uma branch já existente ou uma que acabou de criar);
+    -> <strong>git branch</strong> (Vai mostrar todas as branchs existentes);

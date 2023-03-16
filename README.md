@@ -29,7 +29,7 @@ https://git-scm.com/download
     -> <strong>git merge nomeDaBranch:</strong> (Vai trazer a branch para a linha do tempo principal "Master");<br>
 
 - [ok] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto:<br>
-    -> <strong git branch -D feature/teste:</strong> (Vai deletar a branch depois dela está na linha do tempo principal "Master");<br>
+    -> <strong>git branch -D feature/teste:</strong> (Vai deletar a branch depois dela está na linha do tempo principal "Master");<br>
 
 <style>
     strong {

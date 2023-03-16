@@ -24,3 +24,6 @@ https://git-scm.com/download
     -> <strong>git branch feature/nomeDaBranch</strong> (Vai criar uma linha do tempo alternativa);
     -> <strong>git checkout nomeDaBranch</strong> (Vai entrar em uma branch já existente ou uma que acabou de criar);
     -> <strong>git branch</strong> (Vai mostrar todas as branchs existentes);
+
+- [] Você adiciona as novas funcionalidades ao seu projeto em produção: 
+    -> <strong>git merge nomeDaBranch</strong> (Vai trazer a branch para a linha do tempo principal "Master");

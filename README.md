@@ -27,3 +27,7 @@ https://git-scm.com/download
 
 - [] Você adiciona as novas funcionalidades ao seu projeto em produção: 
     -> <strong>git merge nomeDaBranch</strong> (Vai trazer a branch para a linha do tempo principal "Master");
+
+- [] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto:
+    -> <strong>git branch -D feature/teste</strong> (Vai deletar a branch depois dela está na linha do tempo principal "Master");
+

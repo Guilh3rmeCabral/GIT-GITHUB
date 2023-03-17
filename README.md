@@ -47,7 +47,6 @@ https://git-scm.com/download
     -> Vai ser necessário dar o <strong>git log</strong> e pegar a linha do tempo escolhida:<br>
         -> <strong>git checkout linhaDoTempo -- arquivo:</strong> (Vai trazer de volta da determinada linha do tempo);<br>
 
-- [Recuperar] Você precisa recuperar algo deletado:
-    -> <strong>git checkout -- nomeDoArquivo:</strong> (Vai recuperar arquivo deletado)
+- [Recuperar] Você precisa recuperar algo deletado:<br>
+    -> <strong>git checkout -- nomeDoArquivo:</strong> (Vai recuperar arquivo deletado);
 
-    

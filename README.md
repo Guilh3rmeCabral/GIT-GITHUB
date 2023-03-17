@@ -4,7 +4,7 @@ Guia prático.
 
 ### Instalação
 
-https://git-scm.com/download
+<a target="_blank" href="https://git-scm.com/download">Baixar Git Aqui</a>
 
 # SCENES
 

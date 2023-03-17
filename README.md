@@ -13,6 +13,7 @@ https://git-scm.com/download
     -> <strong>git add .:</strong> (Vai add o conteúdo dos arquivos ao índice "todos os arquivos");<br>
     -> <strong>git add nomeArquivo:</strong> (Vai add o conteúdo do arquivo ao índice "somente arquivo apontado");<br>
     -> <strong>git commit -m "mensagem aqui":</strong> (Vai gravar alterações no repositório);<br>
+    -> <strong>git commit -am "mensagem aqui":</strong> (Vai gravar alterações no repositório e add ao mesmo tempo);<br>
     -> <strong>git log:</strong> (Vai mostrar os pontos na história do projeto);<br>
 
 - [ok] Você deseja verificar mudanças feitas no seu projeto:<br>
@@ -24,6 +25,7 @@ https://git-scm.com/download
     -> <strong>git branch feature/nomeDaBranch:</strong> (Vai criar uma linha do tempo alternativa);<br>
     -> <strong>git checkout nomeDaBranch:</strong> (Vai entrar em uma branch já existente ou uma que acabou de criar);<br>
     -> <strong>git branch:</strong> (Vai mostrar todas as branchs existentes);<br>
+    -> <strong>git checkout -b nomeDaBranch:</strong> (Vai criar e entrar na branch);<br>
 
 - [ok] Você adiciona as novas funcionalidades ao seu projeto em produção: <br>
     -> <strong>git merge nomeDaBranch:</strong> (Vai trazer a branch para a linha do tempo principal "Master");<br>
@@ -31,6 +33,16 @@ https://git-scm.com/download
 - [ok] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto:<br>
     -> <strong>git branch -D feature/teste:</strong> (Vai deletar a branch depois dela está na linha do tempo principal "Master");<br>
 
-
-- [Obs] Configuração de credencial, caso fique pedindo senha toda vez que for dar o push: <br>
+- [Config/ok] Configuração de credencial, caso fique pedindo senha toda vez que for dar o push: <br>
     -> <strong>git config credential.helper store</strong>
+
+- [ok] Você vai pegar um projeto já iniciado, para trabalhar com o time: <br>
+    -> Vai no GITHUB pega o link do projeto e no terminal vai dar o seguinte comando: <br>
+        -> <strong>git clone "link do projeto":</strong> (Vai baixar o projeto já iniciado e colocar na sua máquina); <br>
+
+- [ATT/OK] Atualizar projeto local: ,br>
+    -> <strong>git pull</strong> (Vai atualizar o projeto local);
+
+- [back] Você precisa voltar um arquivo para determinado momento da linha do tempo:<br>
+    -> Vai ser necessário dar o <strong>git log</strong> e pegar a linha do tempo escolhida:<br>
+        -> <strong>git checkout linhaDoTempo -- arquivo:</strong> (Vai trazer de volta da determinada linha do tempo);<br>
